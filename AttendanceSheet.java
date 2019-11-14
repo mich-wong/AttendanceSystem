@@ -141,8 +141,8 @@ public class AttendanceSheet extends JFrame{
     
     
    JLabel label = new JLabel("Today's date is: " + weekday + ", " 
-		   										 + month + " " 
-		   										 + Integer.toString(day));
+						 + month + " " 
+		   				 + Integer.toString(day));
    label.setBounds(300,30,1000,30);
    getContentPane().add(label);
    
