@@ -170,8 +170,6 @@ public class AttendanceSheet extends JFrame{
 		  //attendance.generateMonthlyReport(month);
 		  Attendance.generateMonthlyReport(month);
 		  
-		  //what is static and why does it have to be changed 
-		  
 		  File monthlyReportEdit = new File(System.getProperty("user.home"), "Project/Classroom/" + month + "/MONTHLYREPORT.txt");
 		  FileWriter fw = new FileWriter(monthlyReportEdit);
 		  BufferedWriter fileWriter = new BufferedWriter(fw);
